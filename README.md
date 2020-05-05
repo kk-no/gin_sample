@@ -6,10 +6,10 @@ gin-gonic waf and realize hotreload sample.
 
 ## Use
 
-- go
-- go modules
-- gin(https://github.com/gin-gonic/gin)
-- reaize
+- go (https://golang.org/)
+- go modules (https://github.com/golang/go/wiki/Modules)
+- gin (https://github.com/gin-gonic/gin)
+- realize (https://github.com/oxequa/realize)
 
 ## Serve
 
