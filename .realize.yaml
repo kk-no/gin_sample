@@ -9,7 +9,7 @@ schema:
     commands:
       install:
         status: true
-        method: go build -o main main.go
+        method: go build -o ./.bin/main cmd/gin/main.go
       run:
         status: true
         method: ./main
