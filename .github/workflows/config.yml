@@ -1,10 +1,10 @@
-name: sample
+name: go_actions
 on: push
 
 jobs:
   build:
     name: gin
-    runs-on: ubunts-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Set up Go 1.13
         uses: actions/setup-go@v1
