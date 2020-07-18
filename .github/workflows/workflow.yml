@@ -23,7 +23,7 @@ jobs:
           sudo mv ./bin/golangci-lint $GOPATH/bin/
 
       - name: lint
-        run:  --disable-all --enable=goimports --enable=golint --enable=govet --enable=errcheck --enable=staticcheck ./...
+        run:  golangci-lint run --disable-all --enable=goimports --enable=golint --enable=govet --enable=errcheck --enable=staticcheck ./...
 
       - name: test
         run: go test ./... -v
